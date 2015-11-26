@@ -22,6 +22,16 @@ public class ClassA {
         this.field2 = field2;
     }
 
+
+
+    public String getField3() {
+        return field3;
+    }
+
+    public void setField3(String field3) {
+        this.field3 = field3;
+    }
+
     public ClassA(String field1, String field2) {
         super();
         this.field1 = field1;
